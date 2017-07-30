@@ -31,7 +31,7 @@ else
 fi
 echo ''
 echo -n '==> 安装插件...'
-tar xzvf hiwifi-ss.tar.gz -C / >>/dev/null
+tar xzvf hiwifi-ss.v1.0.5.tar.gz -C / >>/dev/null
 echo -e '...[\e[32m安装成功\e[0m]'
 
 echo ''
