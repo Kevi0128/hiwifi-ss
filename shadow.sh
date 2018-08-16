@@ -10,6 +10,7 @@ echo '==> 下载插件...'
 
 curl -k https://github.com/qiwihui/hiwifi-ss/releases/download/v1.0.6/hiwifi-ss.tar.gz
 echo 'Done! 下载完成'
+ls
 echo ''
 sleep 2
 echo -n "==> 备份系统文件...."
