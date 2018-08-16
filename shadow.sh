@@ -3,7 +3,7 @@
 echo 'Go!'
 # echo '==> 创建临时目录 /tmp/geewan'
 # mkdir -p /tmp/geewan
-# cd /tmp/geewan
+cd /tmp/geewan
 # echo 'Done! 成功创建临时目录!'
 # echo ''
 # echo '==> 下载插件...'
