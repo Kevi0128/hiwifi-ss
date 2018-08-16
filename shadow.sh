@@ -1,17 +1,17 @@
 #!/bin/sh
 #
 echo 'Go!'
-echo '==> 创建临时目录 /tmp/geewan'
-mkdir -p /tmp/geewan
-cd /tmp/geewan
-echo 'Done! 成功创建临时目录!'
-echo ''
-echo '==> 下载插件...'
+# echo '==> 创建临时目录 /tmp/geewan'
+# mkdir -p /tmp/geewan
+# cd /tmp/geewan
+# echo 'Done! 成功创建临时目录!'
+# echo ''
+# echo '==> 下载插件...'
 
-curl -k https://github.com/qiwihui/hiwifi-ss/blob/v1.0.6/hiwifi-ss.tar.gz -o hiwifi-ss.tar.gz
-echo 'Done! 下载完成'
-echo ''
-sleep 2
+# curl -k https://github.com/qiwihui/hiwifi-ss/blob/v1.0.6/hiwifi-ss.tar.gz -o hiwifi-ss.tar.gz
+# echo 'Done! 下载完成'
+# echo ''
+# sleep 2
 echo -n "==> 备份系统文件...."
 
 if [ -f /usr/lib/lua/luci/view/admin_web/menu/menu_left.htm.ssbak ]; then
@@ -44,7 +44,7 @@ if test -e /var/run/luci-indexcache; then
 else
     echo 'luci-cache does not exist! 无法找到luci-cache,请确定是否是极路由环境' && echo ''
 fi
-rm -rf /tmp/geewan
+# rm -rf /tmp/geewan
 sleep 2
 echo ''
 echo '插件成功安装!'
