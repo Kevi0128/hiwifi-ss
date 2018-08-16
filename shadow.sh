@@ -44,7 +44,7 @@ if test -e /var/run/luci-indexcache; then
 else
     echo 'luci-cache does not exist! 无法找到luci-cache,请确定是否是极路由环境' && echo ''
 fi
-rm -rf /tmp/geewan
+# rm -rf /tmp/geewan
 sleep 2
 echo ''
 echo '插件成功安装!'
